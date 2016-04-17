@@ -1,0 +1,7 @@
+package main;
+
+message Packet {
+    required int32   serial = 1;
+    required string  message = 2;
+    optional int64   sent_time = 3;
+}
